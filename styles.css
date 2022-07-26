@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor1: #0E496B;
+    --cor2: #66BCEE;
+    --cor3: #1FA1EB;
+    --cor4: #2E556B;
+    --cor5: #187DB8;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), rgb(255, 255, 255)) ;
+    height: 200px;
+    font-family: 'Cinzel', serif;
+}
+header > h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+header > p{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+    max-width: 490px;
+    line-height: 25px;
+    display: block;
+    margin: auto;
+}
+header img.yo{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+section#one{
+    font-family: 'Cinzel', serif;
+    margin-top: 360px;
+    margin-bottom: 40px;
+    text-align: center;
+    background-image: linear-gradient(90deg, white, var(--cor2), white);
+    height: 150px;
+}
+section > h1{
+    padding-top: 10px;
+}
+p#description{
+    max-width: 650px;
+    display: block;
+    margin: auto;
+}
+ul{
+    font-family: 'Cinzel', serif;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+    
+}
+ul > a{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+li > h2:hover{
+    background-color: rgba(240, 248, 255, 0.575);
+    border-radius: 10px;
+}
+li{
+    padding: 6px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    background-image: linear-gradient(90deg, white, var(--cor2), white);
+    margin-top: 40px;
+    padding-top: 10px;
+}
+footer > p{
+    font-family: 'Cinzel';
+    margin-top: 0px;
+}
