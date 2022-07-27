@@ -49,12 +49,13 @@ section#one{
     margin-bottom: 40px;
     text-align: center;
     background-image: linear-gradient(90deg, white, var(--cor2), white);
-    height: 150px;
+    height: 100%;
 }
 section > h1{
     padding-top: 10px;
 }
 p#description{
+    width: 100%;
     max-width: 650px;
     display: block;
     margin: auto;
