@@ -67,14 +67,18 @@ ul{
     list-style-type: none;
     
     
+    
+}
+a{   
+    text-decoration: none;
+    color: black;
 }
 ul > a{
     margin: auto;
-    text-decoration: none;
     color: black;
     background-color: white;
 }
-li > h2:hover{
+a > h2:hover{
     background-color: rgba(240, 248, 255, 0.575);
     border-radius: 10px;
 }
@@ -84,6 +88,7 @@ li{
     border-radius: 10px;
     width: 150px;
     margin: auto;
+    margin-bottom: 10px;
     text-align: center;
     
 }
