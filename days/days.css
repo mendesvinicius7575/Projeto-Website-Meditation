@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor1: #0E496B;
+    --cor2: #66BCEE;
+    --cor3: #1FA1EB;
+    --cor4: #2E556B;
+    --cor5: #187DB8;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), rgb(255, 255, 255)) ;
+    height: 200px;
+    font-family: 'Cinzel', serif;
+}
+header > h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+header > p{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+    max-width: 490px;
+    line-height: 25px;
+    display: block;
+    margin: auto;
+}
+.select{
+    line-height: 17px;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.centerdiv{
+    max-width: 150px;    
+    margin: auto;
+    font-weight: bold;
+}
+
+ul{
+    font-family: 'Cinzel', serif;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0px 20px 0px 20px;
+}
+ul > a{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+}
+li{
+    background-color: var(--cor2);
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+li > h2:hover{
+    background-color: rgba(240, 248, 255, 0.575);
+    border-radius: 10px;
+}
