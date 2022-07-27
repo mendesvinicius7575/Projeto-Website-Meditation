@@ -7,4 +7,4 @@
 
 <h2 align="center">Website desenvolvido para auxiliar pessoas que buscam os benefícios da meditação diária.</h2>
 
-<a align="center"  href="https://mendesvinicius7575.github.io/Projeto-Website-Meditation/index.html">Acessar o Site</a>
+<div align="center"><a href="https://mendesvinicius7575.github.io/Projeto-Website-Meditation/index.html">Acessar o Site</a></div>
