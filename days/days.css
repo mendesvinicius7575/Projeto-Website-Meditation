@@ -68,6 +68,23 @@ li{
     
 }
 li > h2:hover{
+    transition-duration: 1s;
     background-color: rgba(240, 248, 255, 0.575);
     border-radius: 10px;
+}
+div{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    background-image: linear-gradient(90deg, white, var(--cor2), white);
+    margin-top: 40px;
+    padding-top: 10px;
+}
+footer > p{
+    font-family: 'Cinzel';
+    margin-top: 0px;
 }
