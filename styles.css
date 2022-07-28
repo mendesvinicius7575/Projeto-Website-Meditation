@@ -15,17 +15,19 @@
     --cor4: #2E556B;
     --cor5: #187DB8;
 }
-
+/*Design do cabeçalho com degrade*/
 header{
     background-image: linear-gradient(to bottom, var(--cor2), rgb(255, 255, 255)) ;
     height: 200px;
     font-family: 'Cinzel', serif;
 }
+/* Centralizando o cabeçalho*/
 header > h1{
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
 }
+/* Centralizando o paragrafo dentro do cabeçalho*/
 header > p{
     text-align: center;
     font-size: 24px;
@@ -35,6 +37,7 @@ header > p{
     display: block;
     margin: auto;
 }
+/* Centralizando a imagem dentro do cabeçalho*/
 header img.yo{
     display: block;
     margin: auto;
@@ -43,6 +46,7 @@ header img.yo{
     margin-top: 40px;
     border-radius: 25px;
 }
+/* Design da seção*/
 section#one{
     font-family: 'Cinzel', serif;
     margin-top: 360px;
@@ -60,29 +64,30 @@ p#description{
     display: block;
     margin: auto;
 }
+/*Design da lista*/
 ul{
     font-family: 'Cinzel', serif;
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none;
-    
-    
-    
+    list-style-type: none;    
 }
+/* Retirando decorações de link*/
 a{   
     text-decoration: none;
     color: black;
 }
+/* Centralizando botoes*/
 ul > a{
     margin: auto;
     color: black;
     background-color: white;
 }
 a > h2:hover{
-    background-color: rgba(240, 248, 255, 0.575);
+    background-color: rgba(240, 248, 255, 0.842);
     border-radius: 10px;
-    transition-duration: 1s;
+    transition-duration: 1.5s;
 }
+/*Design de cada botão*/
 li{
     padding: 6px;
     background-color: var(--cor2);
@@ -93,7 +98,7 @@ li{
     text-align: center;
     
 }
-
+/*Design do rodapé*/
 footer{
     text-align: center;
     height: 50px;

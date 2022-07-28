@@ -15,17 +15,19 @@
     --cor4: #2E556B;
     --cor5: #187DB8;
 }
-
+/* Criei o degrade para a header*/
 header{
     background-image: linear-gradient(to bottom, var(--cor2), rgb(255, 255, 255)) ;
     height: 200px;
     font-family: 'Cinzel', serif;
 }
+/* Alinhei o texto do H1*/
 header > h1{
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
 }
+/* Alinhamento do p abaixo do H1*/
 header > p{
     text-align: center;
     font-size: 24px;
@@ -35,6 +37,8 @@ header > p{
     display: block;
     margin: auto;
 }
+
+/* Alinhamento do texto para selecionar*/
 .select{
     line-height: 17px;
     padding: 8px;
@@ -48,7 +52,7 @@ header > p{
     margin: auto;
     font-weight: bold;
 }
-
+/* Bottões de seleção em lista*/
 ul{
     font-family: 'Cinzel', serif;
     display: flex;
@@ -56,29 +60,33 @@ ul{
     list-style-type: none;
     margin: 0px 20px 0px 20px;
 }
+/* Caracteristicas do link para o botão*/
 ul > a{
     margin: auto;
     text-decoration: none;
     color: black;
 }
+/* design do botão*/
 li{
     background-color: var(--cor2);
     padding: 15px;
     border-radius: 10px;
     
 }
+/* Ao passar mouse pelo botão */
 li > h2:hover{
     transition-duration: 1s;
     background-color: rgba(240, 248, 255, 0.575);
     border-radius: 10px;
 }
+/* Centralizando a imagem */
 div{
     display: block;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
+/* design do botao voltar*/
 h2#back{
     font-family: 'Cinzel', serif;
     font-size: 20px;
@@ -94,7 +102,7 @@ h2#back:hover{
     transition-duration: 1s;
     background-color: rgba(240, 248, 255, 0.575);
 }
-
+/* Rodapé design*/
 footer{
     text-align: center;
     height: 50px;
