@@ -90,7 +90,7 @@ h2#back{
     border-radius: 10px;
 }
 
-a > h2{
+h2#back:hover{
     transition-duration: 1s;
     background-color: rgba(240, 248, 255, 0.575);
 }
