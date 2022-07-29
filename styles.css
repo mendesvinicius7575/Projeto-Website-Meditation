@@ -82,10 +82,10 @@ ul > a{
     color: black;
     background-color: white;
 }
-a > h2:hover{
-    background-color: rgba(240, 248, 255, 0.842);
+li:hover{
+    background-color: rgba(240, 248, 255, 0.575);
     border-radius: 10px;
-    transition-duration: 1.5s;
+    transition-duration: 1s;
 }
 /*Design de cada botão*/
 li{

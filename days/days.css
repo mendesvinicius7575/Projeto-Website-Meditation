@@ -60,6 +60,11 @@ ul{
     list-style-type: none;
     margin: 0px 20px 0px 20px;
 }
+/* Retirando a decoração dos links*/
+a{
+    text-decoration: none;
+    color: black;
+}
 /* Caracteristicas do link para o botão*/
 ul > a{
     margin: auto;
@@ -74,17 +79,25 @@ li{
     
 }
 /* Ao passar mouse pelo botão */
-li > h2:hover{
+
+li:hover{
     transition-duration: 1s;
     background-color: rgba(240, 248, 255, 0.575);
     border-radius: 10px;
 }
+
 /* Centralizando a imagem */
 div{
     display: block;
     text-align: center;
+   
     margin-top: 50px;
     margin-bottom: 50px;
+}
+div img.yoga{
+    width: 60%;
+    max-width: 450px;
+
 }
 /* design do botao voltar*/
 h2#back{

@@ -5,15 +5,15 @@ var botaoMorning = window.document.getElementById('li1')
 var botaoAfternoon = window.document.getElementById('li2')
 var botaoEvenning = window.document.getElementById('li3')
 
-botaoMorning.onclick = function(){
+botaoMorning.onmouseenter = function(){
     foto.setAttribute("src", "medi1.png")
 }
 
 
-botaoAfternoon.onclick = function(){
+botaoAfternoon.onmouseenter = function(){
     foto.setAttribute("src", "medi2.png")
 }
 
-botaoEvenning.onclick = function(){
+botaoEvenning.onmouseenter = function(){
     foto.setAttribute("src", "medi3.png")
 }
