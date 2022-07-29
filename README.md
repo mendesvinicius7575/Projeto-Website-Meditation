@@ -9,7 +9,7 @@
 
 
   <p align="center">
-    <img src="funcionando.gif" alt="nao foi"/>
+    <img src="fucionando.gif" alt="nao foi"/>
   </p>
 
 
