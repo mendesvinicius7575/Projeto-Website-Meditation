@@ -98,6 +98,24 @@ li{
     text-align: center;
     
 }
+/* Design da secão 2*/
+section#meditate{
+    padding: 13px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    
+}
+section#meditate:hover{
+    background-color: rgba(240, 248, 255, 0.575);
+    border-radius: 10px;
+    transition-duration: 1s;
+}
 /*Design do rodapé*/
 footer{
     text-align: center;
