@@ -7,17 +7,18 @@
 
 <h2 align="center">Website desenvolvido para auxiliar pessoas que buscam os benefícios da meditação diária.</h2>
 
-
-  <p align="center">
-    <img src="fucionando.gif" alt="nao foi"/>
-  </p>
-
 <h2>Tecnologias utilizadas:</h2>
 <ul>
 <li>HTML5</li>
 <li>JavaScript</li>
 <li>CSS3</li>
 </ul>
+
+
+
+  <p align="center">
+    <img src="fucionando.gif" alt="nao foi"/>
+  </p>
 
 
 <div align="center"><a href="https://mendesvinicius7575.github.io/Projeto-Website-Meditation/index.html" target="_blank">Acessar o Site</a></div>
