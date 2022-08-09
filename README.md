@@ -5,7 +5,7 @@
 </div>
 
 
-<p align="center">Com o intuito de me desenvolver nas linguagens Front-End, resolvi criar um Website desenvolvido com o intuito de auxiliar pessoas que buscam os benefícios da meditação diária. Neste protótipo me deparei com diversos desafios que me fizeram crescer dentro das linguagens utilizadas.</p>
+<p align="center">Com o intuito de me desenvolver nas linguagens Front-End, resolvi criar um Website desenvolvido com o intuito de auxiliar pessoas que buscam os benefícios da meditação diária. Neste protótipo me deparei com diversos desafios que me fizeram adquirir experiência com as linguagens utilizadas.</p>
 
 <div align="center">
 <h2>&#128640 Tecnologias utilizadas:</h2>
