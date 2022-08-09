@@ -7,12 +7,12 @@
 
 <p align="center">Website desenvolvido para auxiliar pessoas que buscam os benefícios da meditação diária.</p>
 
+<div align="center">
 <h2>&#128640 Tecnologias utilizadas:</h2>
-<ul>
-<li>HTML5</li>
-<li>JavaScript</li>
-<li>CSS3</li>
-</ul>
+<p>- HTML5</p>
+<p>- JavaScript</p>
+<p>- CSS3</p>
+  </div>
 
 <h2 align="center">Site em funcionamento</h2>
 
