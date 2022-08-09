@@ -5,7 +5,7 @@
 </div>
 
 
-<h2 align="center">Website desenvolvido para auxiliar pessoas que buscam os benefícios da meditação diária.</h2>
+<p align="center">Website desenvolvido para auxiliar pessoas que buscam os benefícios da meditação diária.</p>
 
 <h2>Tecnologias utilizadas:</h2>
 <ul>
