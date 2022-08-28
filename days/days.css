@@ -99,19 +99,21 @@ div img.yoga{
     max-width: 450px;
 
 }
+aside{
+    text-align: center;
+}
 /* design do botao voltar*/
-h2#back{
+span#back{
     font-family: 'Cinzel', serif;
     font-size: 20px;
     text-align: center;
     background-color: var(--cor2);
     padding: 15px;
     width: 100px;
-    margin: auto;
     border-radius: 10px;
 }
 
-h2#back:hover{
+span#back:hover{
     transition-duration: 1s;
     background-color: rgba(240, 248, 255, 0.575);
 }
