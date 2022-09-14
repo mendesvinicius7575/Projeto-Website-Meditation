@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+:root{
+    --cor1: #0E496B;
+    --cor2: #66BCEE;
+    --cor3: #1FA1EB;
+    --cor4: #2E556B;
+    --cor5: #187DB8;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), rgb(255, 255, 255));
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Cinzel;
+}
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 300px;
+    width: 90%;
+}
+.section_form{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+}
+input{
+    width: 85%;
+}

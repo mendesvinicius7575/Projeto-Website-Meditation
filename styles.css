@@ -115,8 +115,9 @@ hr{
     border: none;
 }
 /* Design do botão de Meditar*/
-section#meditate{
+section.meditate{
     padding: 13px;
+    font-family: 'Cinzel', serif;
     background-color: var(--cor2);
     border-radius: 10px;
     width: 150px;
@@ -126,7 +127,7 @@ section#meditate{
     text-align: center;
     font-weight: normal;
 }
-section#meditate:hover{
+section.meditate:hover{
     background-color: rgba(240, 248, 255, 0.575);
     border-radius: 10px;
     transition-duration: 1s;
