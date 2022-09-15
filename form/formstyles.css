@@ -10,6 +10,7 @@
 
 header{
     background-image: linear-gradient(to bottom, var(--cor2), rgb(255, 255, 255));
+    height: 90px;
 }
 
 body{
@@ -17,8 +18,17 @@ body{
     padding: 0px;
     font-family: Cinzel;
 }
+.container_signup{
+
+}
+.signup_title{
+    position: relative;
+    top: 20px;
+    font-size: 2em;
+}
 h1{
     text-align: center;
+    margin: auto;
 }
 div{
     display: flex;
@@ -28,13 +38,21 @@ div{
     width: 90%;
 }
 .section_form{
-    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     text-align: left;
     padding: 20px;
     border-radius: 20px;
 }
+label{
+    margin: 5px;
+}
 input{
     width: 85%;
+}
+input[name="date"]{
+    width: 110px;
+}
+input[name="phone"]{
+    width: 110px;
 }
