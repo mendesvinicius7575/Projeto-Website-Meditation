@@ -17,12 +17,13 @@
         <form action="POST">
             <div>
                 <section class="section_form">
-                    <label for="first_name">First Name: <input type="text" name="first_name" size="30" placeholder="Your First Name Here"> </label>
-                    <label for="last_name">Last Name: <input type="text" name="last_name" size="30" placeholder="Your Last Name Here"> </label>
-                    <label for="email">Email: <input type="email" name="email" size="35" placeholder="Your Email" ></label>
-                    <label for="age">Birth Date: <input  type="date" name="date"  min="0" placeholder="Your Age"></label>
+                    <label for="first_name">First Name: <input type="text" id="first_name" name="first_name" size="30" required placeholder="Your First Name Here"> </label>
+                    <label for="last_name">Last Name: <input type="text" id="last_name" name="last_name" size="30" required placeholder="Your Last Name Here"> </label>
+                    <label for="email">Email: <input type="email" id="email" name="email" size="35" required placeholder="Your Email" ></label>
+                    <label for="age">Birth Date: <input type="date" name="date"  min="0" required placeholder="Your Age"></label>
                     <label for="phone">Phone Number: <input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required placeholder="(xx) xxxxx-xxxx"></label>
-                    
+                    <label for="gender">Gender: <input type="radio" name="gender" required value="male">Male<input required type="radio" name="gender" value="female">Female</label>
+                    <label for="observation">Observation/Sugetão: <textarea name="observation" rows="10" cols="25" ></textarea></label>
                     
                 </section>
             </div>

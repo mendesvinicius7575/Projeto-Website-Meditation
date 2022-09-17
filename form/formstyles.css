@@ -56,3 +56,6 @@ input[name="date"]{
 input[name="phone"]{
     width: 110px;
 }
+input[type="radio"]{
+    width: 20px;
+}
