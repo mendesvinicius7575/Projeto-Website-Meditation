@@ -59,3 +59,7 @@ input[name="phone"]{
 input[type="radio"]{
     width: 20px;
 }
+button{
+    margin: auto;
+    transform: translate(-50%);
+}
