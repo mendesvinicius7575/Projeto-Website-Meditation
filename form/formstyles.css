@@ -49,6 +49,7 @@ label{
 }
 input{
     width: 85%;
+    height: 20px;
 }
 input[name="date"]{
     width: 110px;
@@ -58,6 +59,7 @@ input[name="phone"]{
 }
 input[type="radio"]{
     width: 20px;
+    margin: 0px 8px 0px 8px;
 }
 button{
     margin: auto;
