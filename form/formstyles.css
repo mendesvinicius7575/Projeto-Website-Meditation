@@ -30,7 +30,7 @@ h1{
     text-align: center;
     margin: auto;
 }
-div{
+#div_form{
     display: flex;
     margin: auto;
     justify-content: center;
@@ -50,6 +50,13 @@ label{
 input{
     width: 85%;
     height: 20px;
+    border: 0;
+    border-bottom: 1.5px solid rgb(129, 129, 129);
+    background-color: #e2e2e2;
+    outline: 0;
+}
+input:focus{
+    border-bottom: 1.5px solid rgb(0, 99, 138);
 }
 input[name="date"]{
     width: 110px;
@@ -64,4 +71,45 @@ input[type="radio"]{
 button{
     margin: auto;
     transform: translate(-50%);
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    transform: translate(-18%);
+}
+h2{
+    margin: 0px;
+    
+}
+a#back{
+    padding: 13px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: normal;
+    
+}
+a#back:hover{
+    background-color: rgba(240, 248, 255, 0.575);
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+/*Design do rodapé*/
+footer{
+    text-align: center;
+    max-height: 90px;
+    background-image: linear-gradient(90deg, white, var(--cor2), white);
+    margin-top: 40px;
+    transform: translate(-25px);
+}
+footer > p{
+    font-family: 'Cinzel';
+    margin-top: 0px;
+    
 }
