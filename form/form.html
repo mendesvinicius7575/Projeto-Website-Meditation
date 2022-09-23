@@ -20,8 +20,8 @@
                     <label for="first_name">First Name: <input type="text" id="first_name" name="first_name" size="30" required placeholder="Your First Name Here" tabindex="1"> </label>
                     <label for="last_name">Last Name: <input type="text" id="last_name" name="last_name" size="30" required placeholder="Your Last Name Here" tabindex="2" > </label>
                     <label for="email">Email: <input type="email" id="email" name="email" size="35" required placeholder="Your Email" tabindex="3" ></label>
-                    <label for="date-number">Birth Date: <input type="date" id="date-number" name="date" required placeholder="Your Age" tabindex="4" ></label>
-                    <label for="cpf">CPF: <Input type="text" id="cpf" name="cpf" pattern="[0-9]{9}-[0-9]{2}" required placeholder="Your CPF"tabindex="5" > </label>
+                    <label for="date-number">Birth Date: <input type="date" id="date-number" name="date" required tabindex="4" ></label>
+                    <label for="cpf">CPF: <Input type="text" id="cpf" name="cpf" pattern="[0-9]{9}-[0-9]{2}" required placeholder="Your CPF" tabindex="5" > </label>
                     <label for="phone">Phone Number: <input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required placeholder="(xx) xxxxx-xxxx" tabindex="6" ></label>
                     <label>Gender:</label>
                     <label><input type="radio" name="gender" value="male">Male</label>
@@ -32,7 +32,7 @@
                         <option value="personal">Personal</option> 
                         <option value="business">Business</option> 
                     </select></label>
-                    <label for="knowledge">Level of Knowledge About Meditation:<input type="range" name="knowledge" min="0" max="100"></label>
+                    <label for="knowledge">Level of Knowledge About Meditation:<input type="range" id="knowledge" name="knowledge" min="0" max="100"></label>
                     <label for="observation">Observation/Suggestion: <textarea name="observation" id="observation" rows="10" cols="25" ></textarea></label>
                     <button type="submit">Sign Up</button>
                 </section>
