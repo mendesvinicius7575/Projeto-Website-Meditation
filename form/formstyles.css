@@ -67,7 +67,7 @@ input[type="radio"]{
 }
 button{
     margin: auto;
-    transform: translate(-50%);
+    transform: translate(-40%);
 }
 a{
     text-decoration: none;
@@ -90,6 +90,7 @@ a#back{
     margin-top: 15px;
     text-align: center;
     font-weight: normal;
+    transform: translate(-25px);
     
 }
 a#back:hover{
